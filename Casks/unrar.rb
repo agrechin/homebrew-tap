@@ -8,7 +8,7 @@ cask "unrar" do
   homepage "https://github.com/agrechin/unrar"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   binary "unrar"
 end
